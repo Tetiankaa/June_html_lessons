@@ -1,0 +1,43 @@
+body{
+  background-image: url("https://images.unsplash.com/photo-1431263154979-0982327fccbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
+  background-size: cover;
+}
+h1{
+  color: #c25467;
+  font-family: "Cooper Black";
+  text-align: center;
+  margin-top: 50px;
+}
+a{
+  font-family:"Cooper Black";
+  text-decoration: none;
+  margin-left: 20px;
+}
+img{
+  border-radius: 10px;
+  width: 200px;
+  height: 300px;
+}
+.main{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.price{
+  color: #c25467;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+footer{
+  text-align: center;
+  color:#c25467 ;
+  text-decoration: underline;
+  font-weight: bold;
+}
+#mail{
+  color: #c25467;
+  margin-left: 0;
+}
+

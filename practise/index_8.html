@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .box{
+  width: 50px;
+  height: 50px;
+  background-color: darkorchid;
+      position: relative;
+      top: 500px;
+      left: 100px;
+}
+.box_1{
+  background-color: #16d416;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+#container{
+  border: 2px solid;
+}
+#container + p{
+  background-color: #16d416;
+}
+a:link{
+  font-size: 35px;
+  text-decoration: none;
+  border-radius: 7px;
+  text-shadow: 3px 3px 4px;
+  border: 3px solid deeppink;
+  color: deeppink;
+}
+a:visited{
+  color: orangered;
+}
+a:hover{
+  color: #16d416;
+  font-size: 40px;
+}
+a:active{
+  background-color: #d9a54c;
+}
+
+
+    li:not(:hover){
+  background-color: mediumpurple;
+}
+    li:nth-child(even){
+      background-color: darkgreen;
+    }
+    li:hover{
+      background-color: indianred;
+    }
+
+    h1::first-letter{
+      font-style: italic;
+    }
+
+  #pseudo_elements::first-line{
+    background-color: yellow;
+    text-transform: uppercase;
+  }
+  #pseudo_elements::selection{
+    background-color: palevioletred;
+  }
+  li::before{
+    content: "*";
+  }
+  #pseudo_elements::after{
+    content: "$";
+  }
+  </style>
+</head>
+<body>
+
+<div class="box">
+
+  <div class="box_1"></div>
+</div>
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt eius esse fugiat iure maiores mollitia natus necessitatibus nisi nobis numquam odit, perferendis quaerat sed similique suscipit tenetur vero voluptatibus.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt eius esse fugiat iure maiores mollitia natus necessitatibus nisi nobis numquam odit, perferendis quaerat sed similique suscipit tenetur vero voluptatibus.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt eius esse fugiat iure maiores mollitia natus necessitatibus nisi nobis numquam odit, perferendis quaerat sed similique suscipit tenetur vero voluptatibus.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt eius esse fugiat iure maiores mollitia natus necessitatibus nisi nobis numquam odit, perferendis quaerat sed similique suscipit tenetur vero voluptatibus.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt eius esse fugiat iure maiores mollitia natus necessitatibus nisi nobis numquam odit, perferendis quaerat sed similique suscipit tenetur vero voluptatibus.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt eius esse fugiat iure maiores mollitia natus necessitatibus nisi nobis numquam odit, perferendis quaerat sed similique suscipit tenetur vero voluptatibus.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt eius esse fugiat iure maiores mollitia natus necessitatibus nisi nobis numquam odit, perferendis quaerat sed similique suscipit tenetur vero voluptatibus.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt eius esse fugiat iure maiores mollitia natus necessitatibus nisi nobis numquam odit, perferendis quaerat sed similique suscipit tenetur vero voluptatibus.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt eius esse fugiat iure maiores mollitia natus necessitatibus nisi nobis numquam odit, perferendis quaerat sed similique suscipit tenetur vero voluptatibus.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt eius esse fugiat iure maiores mollitia natus necessitatibus nisi nobis numquam odit, perferendis quaerat sed similique suscipit tenetur vero voluptatibus.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt eius esse fugiat iure maiores mollitia natus necessitatibus nisi nobis numquam odit, perferendis quaerat sed similique suscipit tenetur vero voluptatibus.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt eius esse fugiat iure maiores mollitia natus necessitatibus nisi nobis numquam odit, perferendis quaerat sed similique suscipit tenetur vero voluptatibus.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt eius esse fugiat iure maiores mollitia natus necessitatibus nisi nobis numquam odit, perferendis quaerat sed similique suscipit tenetur vero voluptatibus.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt eius esse fugiat iure maiores mollitia natus necessitatibus nisi nobis numquam odit, perferendis quaerat sed similique suscipit tenetur vero voluptatibus.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt eius esse fugiat iure maiores mollitia natus necessitatibus nisi nobis numquam odit, perferendis quaerat sed similique suscipit tenetur vero voluptatibus.</p>
+
+
+<div id="container">
+  <p>this is 1</p>
+  <p>this is 2</p>
+  <div><p>this is 3</p></div>
+</div>
+<p>this is 4</p>
+<p>this is 5</p>
+
+<a href="https://owu.com.ua/" title="okten" target="_blank">OKTEN SCHOOL</a>
+
+<ul>
+  <li>lorem</li>
+  <li>lorem</li>
+  <li>lorem</li>
+  <li>lorem</li>
+  <li>lorem</li>
+  <li>lorem</li>
+</ul>
+
+<h1>Heading</h1>
+<p id="pseudo_elements">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda at cum earum esse exercitationem fugiat neque obcaecati quod reprehenderit?</p>
+
+
+</body>
+</html>
+
+<!--
+
+position: specifies the type of positioning method (static, relative, absolute or fixed)
+    - static - this is the default value. Any top, right, bottom, or left properties specified will have no effect.
+    - relative - elements are positioned relative to their normal flow position. If you add top, right, bottom, or left properties,
+      the element will be offset from its normal position without affecting the layout of other elements.
+    - absolute - elements are removed from the normal flow  and positioned relative to the nearest ancestor
+     with a non-static position. If no such ancestor exists, it will be positioned relative to the document body.
+     -fixed - elements are  positioned relative to the viewport (the browser window) rather than the normal flow of the document
+      They stay in the same position even when the user scrolls the page.
+
+:link -  pseudo-class represents an element that has not yet been visited
+:hover - pseudo-class matches when the user interacts with an element, but does not necessarily activate it
+:active - pseudo-class represents an element that is being activated by the user.
+:visited - pseudo-class represents that is being visited by the user
+
+Pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s).
+ -->

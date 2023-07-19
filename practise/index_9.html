@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+#pagination{
+  text-align: center;
+}
+#pagination a{
+  color: #c25467;
+  text-decoration: none;
+  padding: 8px;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px dotted red;
+}
+#pagination a:hover{
+  background-color: #9999cc;
+}
+.active{
+  background-color: darkseagreen;
+}
+
+.dropdown{
+  display: inline;
+}
+.content{
+  position: absolute;
+  background-color: #c25467;
+  width: 100px;
+  box-shadow: 2px 2px 5px #332b2b;
+  display: none;
+}
+.content a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+}
+.dropdown button{
+  padding: 5px;
+  width: 100px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #da9fa7;
+}
+.dropdown:hover .content{
+display:block ;
+}
+.dropdown a:hover{
+  background-color: red;
+}
+
+  </style>
+</head>
+<body>
+<h1>This is  page 1</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, consequuntur eaque impedit in inventore laboriosam nemo nostrum recusandae rem. Delectus earum fuga harum illum nesciunt nostrum reiciendis sint tempore veritatis?</p>
+
+<div id="pagination">
+<a href=""><</a>
+<a href="index_9.html" class="active">1</a>
+<a href="index_2.html">2</a>
+<a href="index_3.html">3</a>
+<a href="index_2.html">></a>
+</div>
+
+<div class="dropdown">
+  <button>Food</button>
+
+  <div class="content">
+  <a href="">Apple</a>
+  <a href="">Orange</a>
+  <a href="">Banana</a>
+  </div>
+</div>
+
+
+</body>
+</html>

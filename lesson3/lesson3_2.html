@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lesson3_2</title>
+  <style>
+    body{
+      margin: 0;
+    }
+    #pink{
+      width: 100vw;
+      height: 100vh;
+      background-color: pink;
+    }
+    #orange{
+      width: 100vw;
+      height: 100vh;
+      background-color: orange;
+    }
+    #yellow{
+      width: 100vw;
+      height: 100vh;
+      background-color: yellow;
+    }
+    div a{
+      font-size: 3em;
+      text-decoration: none;
+      color: black;
+    }
+    div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    html{
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+<div id="pink">
+  <a href="#orange">&#8659</a>
+</div>
+<div id="orange">
+  <a href="#pink">&#8657</a>
+  <a href="#yellow">&#8659</a>
+</div>
+<div id="yellow"><a href="#orange">&#8657</a></div>
+
+</body>
+</html>

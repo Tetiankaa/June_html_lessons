@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formatting</title>
+  <style>
+    table,th,td{
+      border: 2px solid black;
+    }
+    button{
+      width: 200px;
+      font-size: 25px;
+      border-radius: 10px;
+      background-color: yellow;
+      color: blue;
+      border: 2px solid blue;
+    }
+    #pagination{
+      text-align: center;
+    }
+    #pagination a{
+      color: #c25467;
+      text-decoration: none;
+      padding: 8px;
+      display: inline-block;
+      border-radius: 5px;
+      border: 1px dotted red;
+    }
+    #pagination a:hover{
+      background-color: #9999cc;
+    }
+    .active{
+      background-color: darkseagreen;
+    }
+  </style>
+</head>
+<body>
+<p>This is normal text</p>
+<p>This is <b>bold</b> text</p>
+<p>This is <i>italic</i> text</p>
+<p>This is <u>underlined</u> text</p>
+<p>This is <del>deleted</del> text</p>
+<p>This is <small>small</small> text</p>
+<p>This is <sub>subscript</sub> text</p>
+<p>This <sup>superscript</sup> text</p>
+<p>This is <mark style="background-color: #16d416 ">mark</mark> text</p>
+
+<p><span style="background-color: aqua">hello</span></p>
+<p><div style="background-color: pink">hello</div></p>
+<hr>
+<ul>
+  <li>milk</li>
+  <li>apples</li>
+  <li>coffee</li>
+  <ul>
+    <li>sugar</li>
+    <li>creamer</li>
+    <li>coffee beans</li>
+  </ul>
+</ul>
+<hr>
+<ol>
+  <li>make breakfast</li>
+  <li>make lunch</li>
+  <li>make dinner</li>
+</ol>
+<dl>
+  <dt>desc term</dt>
+  <dd>desc definition</dd>
+</dl>
+<hr>
+<h1>Working hours</h1>
+<table>
+  <tr>
+    <th>Sunday</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+  </tr>
+    <tr>
+  <td>Closed</td>
+  <td>09:00-17:00</td>
+  <td>09:00-17:00</td>
+  <td>09:00-17:00</td>
+  <td>09:00-17:00</td>
+  <td>09:00-17:00</td>
+  <td>10:00-15:00</td>
+  </tr>
+</table>
+<br>
+
+  <button onclick="changeWord()">click me</button>
+  <p id="greeting">HELLO</p>
+
+  <script>
+    function changeWord(){
+      document.getElementById("greeting").innerHTML="GOODBAY"
+    }
+  </script>
+</a>
+<div id="pagination">
+  <a href="index_2.html"><</a>
+  <a href="index_3.html">1</a>
+  <a href="index_2.html">2</a>
+  <a href="index_3.html"  class="active">3</a>
+  <a href="index_3.html">></a>
+</div>
+
+
+</body>
+</html>
+<!--
+DIV element is used for block-level organization and styling of page elements
+SPAN element is used for inline organization and styling
+
+<ul>- defines an unordered list
+<ol> - defines an ordered list
+<dl> - defines a description list
+    dt - description title
+    dd - description definition
+<li> - defines a list item
+
+<table> - defines a table
+    tr - defines a row in a table
+    th - defines a header cell in a table
+    td - defines a cell in a table
+
+<button> - defines a button
+-->
