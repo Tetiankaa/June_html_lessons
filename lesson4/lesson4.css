@@ -1,0 +1,39 @@
+button{
+  width: 200px;
+  height: 100px;
+ background-color: #999999;
+  color: white;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+span{
+  color: red;
+}
+input{
+  margin-bottom: 10px;
+}
+textarea{
+  resize: none;
+}
+#username:focus{
+  outline: 1px solid red;
+  border-radius: 10px;
+}
+
+button:hover{
+background-color: #c25467;
+}
+button:active{
+background-color: #16d416;
+}
+.yes{
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+}
+.yes:checked{
+  background-image: url("icons8-check-48.png");
+  background-size: cover;
+}

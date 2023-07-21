@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Button</title>
+  <link rel="stylesheet" href="lesson4.css">
+</head>
+<body>
+
+<button>click me</button>
+
+<form action="">
+  <label for="username">Username</label>
+  <input type="text" name="username" id="username" placeholder="Name">
+  <br>
+  <label for="email">Email</label>
+  <input type="email" name="email" id="email" placeholder="example@gmail.com">
+  <br>
+  <label for="password">Password</label>
+  <input type="password" name="password" id="password" placeholder="Max 10 characters" required><span>*</span>
+  <br>
+  <label for="age">Age</label>
+  <input type="number" name="age" id="age" min="1">
+  <br>
+  <label>Gender <br>
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female">
+
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male">
+  </label>
+  <br>
+
+  <label for="newletters">Subscribe</label>
+  <input type="checkbox" name="newletters" id="newletters">
+  <br>
+  <label for="country">Country <br>
+    <select name="country" id="country">
+      <option value="">Select country</option>
+      <option value="UA">Ukraine</option>
+      <option value="SK">Slovakia</option>
+      <option value="PL">Poland</option>
+    </select>
+    <br>
+    <label for="comment">Comment</label>
+    <br>
+    <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Type here the comment"></textarea>
+  </label>
+  <br>
+  <!--changing shape of checkbox -->
+  <label>YES</label>
+  <input type="checkbox" name="Yes" class="yes">
+</form>
+
+</body>
+</html>
+<!--
+ <form> - defines an HTML form for user input
+      - action attribute specifies where to send the form-data when a form is submitted.
+      -  method attribute specifies how to send form-data
+
+ <label> - defines a label for an <input> element
+      - "for" attribute - must be equal to the id attribute of the related element to bind them together.
+<input> - defines an input control
+       - type - specifies the type <input> element to display
+	(button, checkbox, color,date,datetime-local,email,file,hidden,image,month,number,password,radio,range,reset,search,submit,tel,text,time,url,week)
+        - name - specifies the name of an <input> element
+       - minlength - defines a minimum lenght for input element
+       - required -specifies that the input element must be filled out
+       - placeholder- specifies a short hint that describes the expected value
+
+<select> -  is used to create a drop-down list
+<textarea> - efines a multiline input control
+    - resize:none - block the possibility to change size of the textarea
+
+    ---STYLING---
+    :focus - style an element when it gets focus
+    appearance:none -  to reset any specific styling on an element
+    :checked - represents checkbox(you can change the type of marker)
+ -->
