@@ -37,9 +37,4 @@ div{
   transition: 2s;
 }
 
-/*
-display:specifies how a certain element should be displayed
-justify-content:specifies the alignment between the items inside a flexible container(horizontally)
-align-items:specifies the alignment for items inside a flexible container(perpendicular)
- :hover selector is used to select elements when you mouse over them
- */
+

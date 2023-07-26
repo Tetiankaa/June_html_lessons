@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  #box{
+    width: 250px;
+    height: 250px;
+    background-color: #427cc4;
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+  }
+  #box:hover{
+    animation-name: changeColor;
+    animation-duration: 3s;
+  }
+  @keyframes slideLeft {
+    from{transform: translateX(300%)}
+  }
+  @keyframes slideRight {
+    to{transform: translateX(300%)}
+  }
+  @keyframes slideUp {
+    from{transform: translateY(300%)}
+  }
+  @keyframes slideDown {
+    to{transform: translateY(300%)}
+  }
+  @keyframes rotate {
+    100%{transform: rotateZ(360deg)}
+  }
+  @keyframes grow {
+    50%{transform: scale(2,2)}
+  }
+  @keyframes shrink {
+    50%{transform: scale(0.5,0.5)}
+  }
+  @keyframes fade {
+    100%{opacity: 0}
+  }
+  @keyframes changeColor {
+    0%{background-color: #427cc4}
+    20%{background-color: #59b49a}
+    40%{background-color: #16d416}
+    60%{background-color: #ee00ff}
+    80%{background-color: yellow}
+    100%{background-color: mediumpurple}
+  }
+  @keyframes glow {
+    50%{box-shadow:0 0 50px orangered }
+  }
+  </style>
+</head>
+<body>
+<div id="box">hi</div>
+</body>
+</html>

@@ -1,17 +1,21 @@
 body{
   background-image: url("https://images.unsplash.com/photo-1431263154979-0982327fccbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
   background-size: cover;
+  font-family: 'Lisu Bosa', serif;
 }
 h1{
   color: #c25467;
-  font-family: "Cooper Black";
   text-align: center;
   margin-top: 50px;
 }
-a{
-  font-family:"Cooper Black";
+footer a{
   text-decoration: none;
   margin-left: 20px;
+}
+header a:hover{
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 1px #c25467 ;
 }
 img{
   border-radius: 10px;
@@ -27,17 +31,88 @@ img{
 .price{
   color: #c25467;
   font-size: 16px;
-  font-weight: bold;
-
 }
 footer{
   text-align: center;
   color:#c25467 ;
   text-decoration: underline;
-  font-weight: bold;
 }
 #mail{
   color: #c25467;
   margin-left: 0;
 }
+.active{
+  font-size: 20px;
+ text-shadow: 2px 1px 4px #c25467 ;
+}
+/*   Contacts page   */
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
+}
+#contacts {
+  width: 40vw;
+  border: 2px dotted white ;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contacts p{
+  font-size: 20px;
+  color: #c25467;
+}
+#contacts p a{
+  text-decoration: none;
+  color: #c25467;
+}
+iframe{
+  width: 50vw;
+  margin-bottom: 10px;
+}
+/*  About page  */
+#info{
+  width: 90vw;
+  text-align: center;
+}
+#info p {
+  font-size: 19px;
+  color: #b63248;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+/*   Delivery and payment   */
+#express_delivery{
+  font-size: 25px;
+  color: red;
+  text-align: center;
+  animation-name: colorChange;
+  animation-duration: 3s;
+  animation-iteration-count: 3;
+}
+@keyframes colorChange {
+  50%{color: white}
+
+}
+aside p img{
+  width: 40px;
+  height: 40px;
+}
+#terms{
+  width: 50vw;
+  text-align: center;
+  font-size: 19px;
+  color: #a21f36;
+}
+aside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
