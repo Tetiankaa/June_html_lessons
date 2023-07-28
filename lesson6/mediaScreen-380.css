@@ -1,0 +1,22 @@
+@media screen and (max-width: 380px) {
+  header{
+    background-color: pink;
+    height: 5vh;
+  }
+  footer{
+    height: 5vh;
+  }
+  section{
+    height: 30vh;
+    width: 100vw;
+  }
+  div{
+  flex-direction: column;
+  }
+}
+aside{
+  background-color: #ffdd00;
+  display: flex;
+  width: 100vw;
+  height: 20vh;
+}
