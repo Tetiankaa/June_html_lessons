@@ -50,7 +50,7 @@ header a{
 }
 .right-section{
   flex: 2;
-  background: url("images/image.png"), lightgray 50% / cover no-repeat;
+  background: url("images/image.png") no-repeat center/cover, lightgray;
 }
 .content{
   position: absolute;
@@ -175,7 +175,7 @@ display: flex;
   margin-left: -30px;
 }
 .construction{
-  width: 312px;
+  width: 250px;
   display: flex;
   flex-direction: column;
 }
@@ -281,9 +281,105 @@ display: flex;
   right: 19%;
 }
 #join_waitlist{
-  top: 40%;
-  left: 30%;
+ right: 180px;
+  top: 130px;
   transform: translate(-50%,-50%);
   z-index: 1;
   position: absolute;
+}
+#join_waitlist p{
+  color: #263640;
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+#email{
+  border-radius: 5px 0 0 5px;
+  background: #F4F5F7;
+  align-items: center;
+  width: 248px;
+  height: 52px;
+}
+#email::placeholder{
+  padding: 14px 16px;
+  color: #263640;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
+}
+#submit{
+  border-radius: 0 5px 5px 0;
+  background: #263640;
+  width: 156px;
+  height: 56px;
+  align-items: center;
+
+  color: #FFF;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
+}
+/* ******************************* */
+footer{
+  width: 100vw;
+  height: 40vh;
+  background: #263640;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main7{
+  width: 75vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+footer img{
+  width: 24.5px;
+  height: 23.5px;
+}
+footer span{
+  color: #FFF;
+  font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 106%;
+}
+.content-download{
+  display: flex;
+}
+.content-download p{
+  color: #FFF;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.content-download>p{
+  margin-right: 24px;
+}
+.items a{
+  text-decoration: none;
+  color: #FFF;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-right: 24px;
+}
+.rights-reserved{
+  color: #D9DBE1;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
 }
